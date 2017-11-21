@@ -1,0 +1,54 @@
+#title {
+    font-size: 50px;
+    color: crimson;
+    font: "Gujarati MT";
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: lightslategray;
+}
+
+#underscores {
+    font-size: 50px;
+    text-align: center;
+}
+
+#myDiv{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+#lives{
+    font-size: 50px;
+    margin-top: 5px
+
+}
+
+#chances{
+    margin-top: 50px;
+}
+#myButton{
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+
+}
+
+button{
+    width: 35px;
+    height: 30px;
+    font-size: 14px;
+    background-color: rosybrown;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+#output{
+    vertical-align: center;
+}

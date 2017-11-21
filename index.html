@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="script.js"></script>
+
+
+</head>
+<body onload="generateButtons()">
+<div id="title">
+    Hangman
+</div>
+
+<div>
+
+Difficulty:
+<select id="difficulty">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="3">Hard</option>
+</select>
+    <button id="myButton" onclick="determineWord()">Lets Play!</button>
+
+</div>
+
+<!--<div id = "choices">-->
+
+<!--<button id="a" onclick="guessLetter(this.id)">A</button>-->
+<!--<button id="b" onclick="guessLetter(this.id)">B</button>-->
+<!--<button id="c" onclick="guessLetter(this.id)">C</button>-->
+<!--<button id="d" onclick="guessLetter(this.id)">D</button>-->
+<!--<button id="e" onclick="guessLetter(this.id)">E</button>-->
+<!--<button id="f" onclick="guessLetter(this.id)">F</button>-->
+<!--<button id="g" onclick="guessLetter(this.id)">G</button>-->
+<!--<button id="h" onclick="guessLetter(this.id)">H</button>-->
+<!--<button id="i" onclick="guessLetter(this.id)">I</button>-->
+<!--<button id="j" onclick="guessLetter(this.id)">J</button>-->
+<!--<button id="k" onclick="guessLetter(this.id)">K</button>-->
+<!--<button id="l" onclick="guessLetter(this.id)">L</button>-->
+<!--<button id="m" onclick="guessLetter(this.id)">M</button>-->
+<!--<button id="n" onclick="guessLetter(this.id)">N</button>-->
+<!--<button id="o" onclick="guessLetter(this.id)">O</button>-->
+<!--<button id="p" onclick="guessLetter(this.id)">P</button>-->
+<!--<button id="q" onclick="guessLetter(this.id)">Q</button>-->
+<!--<button id="r" onclick="guessLetter(this.id)">R</button>-->
+<!--<button id="s" onclick="guessLetter(this.id)">S</button>-->
+<!--<button id="t" onclick="guessLetter(this.id)">T</button>-->
+<!--<button id="u" onclick="guessLetter(this.id)">U</button>-->
+<!--<button id="v" onclick="guessLetter(this.id)">V</button>-->
+<!--<button id="w" onclick="guessLetter(this.id)">W</button>-->
+<!--<button id="x" onclick="guessLetter(this.id)">X</button>-->
+<!--<button id="y" onclick="guessLetter(this.id)">Y</button>-->
+<!--<button id="z" onclick="guessLetter(this.id)">Z</button>-->
+
+<!--</div>-->
+<div id="images"></div>
+<div id="myDiv"></div>
+<div id="underscores"></div>
+<div id="end"></div>
+<div id="chances">
+    Lives Remaining:
+</div>
+<div id = "lives">
+</div>
+<div>
+    Graveyard:
+</div>
+<div id = "graveyard"></div>
+</body>
+</html>
